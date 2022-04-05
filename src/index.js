@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>React App</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <div id="root"></div>
-  <script src="../src/index.js" type="text/javascript"></script>
-  <body>
-    
-  </body>
-</html>
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph.</p>
+  </div>
+  document.getElementById("root")
+  );
